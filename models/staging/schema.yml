@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: dwh
+  - name: anna_demo  # schema name
     tables:
       - name: raw_orders
       - name: raw_customers
