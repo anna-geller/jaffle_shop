@@ -1,7 +1,9 @@
 version: 2
 
 sources:
-  - name: anna_demo  # schema name
+  - name: jaffle_shop
+    database: anna
+    schema: anna_demo
     tables:
       - name: raw_orders
       - name: raw_customers
